@@ -2,16 +2,15 @@
     width: 1158px;
     height: 528px;
     background-color: rgb(247, 247, 247);
-    padding:  20px; /* Увеличенный padding-top */
+    padding:  20px; 
     border: 1px solid #ccc;
     border-radius: 8px;
     margin: 20px auto;
     margin-top: 100px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: 'Montserrat',Arial ,  sans-serif; /* Используем шрифт Roboto */
+    font-family: 'Montserrat',Arial ,  sans-serif;
 }
 
-/* Остальные стили без изменений */
 .about-text {
     font-size: 16px;
     line-height: 1.6;
