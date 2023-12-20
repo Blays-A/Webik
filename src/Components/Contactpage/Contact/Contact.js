@@ -34,7 +34,6 @@ const Contact = () => {
                     <p><strong>Email:</strong> west@blayslang.com</p>
                 </div>
 
-                {/* Можно добавить еще филиалы */}
             </section>
         </div>
     );
