@@ -11,7 +11,6 @@ const Beginnerbox = () => {
         marginTop: '-170px',
         transform: 'translateY(-50%)',
         borderRadius  : '20px' ,
-        // border: '1px solid #000', // Пример рамки для наглядности
         backgroundColor: 'rgb(255, 211, 105)',
     };
 
