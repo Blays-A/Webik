@@ -5,7 +5,6 @@ const AudioPlayer = () => {
         '/Ed-Sheeran-Shape-of-You-Lyrics.mp3',
         '/BAD-OMENS-What-It-Cost-Like-A-Villain-Lyrics-Video.mp3',
         '/audio_file_3.mp3',
-        // Добавьте пути к вашим аудиофайлам
     ];
 
     const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
@@ -23,7 +22,7 @@ const AudioPlayer = () => {
         if (currentTrackIndex < audioFiles.length - 1) {
             setCurrentTrackIndex(currentTrackIndex + 1);
         } else {
-            setCurrentTrackIndex(0); // Вернуться к началу, если достигнут конец списка
+            setCurrentTrackIndex(0); 
         }
         currentAudio.src = audioFiles[currentTrackIndex];
         currentAudio.play();
@@ -33,7 +32,7 @@ const AudioPlayer = () => {
         if (currentTrackIndex > 0) {
             setCurrentTrackIndex(currentTrackIndex - 1);
         } else {
-            setCurrentTrackIndex(audioFiles.length - 1); // Перейти к последней мелодии, если достигнут начало списка
+            setCurrentTrackIndex(audioFiles.length - 1); 
         }
         currentAudio.src = audioFiles[currentTrackIndex];
         currentAudio.play();
