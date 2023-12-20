@@ -1,4 +1,4 @@
-/* Contact.css */
+
 
 .contact-container {
     width: 700px;
@@ -39,12 +39,10 @@
     margin: 8px 0;
 }
 
-/* Последняя горизонтальная линия не должна отображаться */
 .branch:last-child {
     border-bottom: none;
 }
 
-/* Медиа-запрос для адаптивности */
 @media screen and (max-width: 768px) {
     .contact-container {
         width: 90%;
