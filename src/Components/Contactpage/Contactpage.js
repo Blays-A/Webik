@@ -6,7 +6,6 @@ import Contact from "./Contact/Contact";
 const Contactpage = () => {
     return (
         <div className="home-page">
-            {/* Вставьте компоненты, которые вы хотите отобразить на главной странице */}
             <Contact/>
             <Footermenu/>
         </div>
