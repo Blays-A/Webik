@@ -27,12 +27,11 @@ p{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    text-decoration: none; /* Чтобы убрать стандартное подчёркивание ссылки */
-    color: inherit; /* Чтобы сохранить цвет текста ссылки */
+    text-decoration: none; 
+    color: inherit; 
 }
 
 #box2 {
-    /* Другие свойства стилей для третьего бокса */
     width: 261px;
     height: 439px;
     background-color: rgb(220, 201, 201);
@@ -51,8 +50,8 @@ p{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    text-decoration: none; /* Чтобы убрать стандартное подчёркивание ссылки */
-    color: inherit; /* Чтобы сохранить цвет текста ссылки */
+    text-decoration: none; 
+    color: inherit;
 }
 
 #box3 {
@@ -75,8 +74,8 @@ p{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    text-decoration: none; /* Чтобы убрать стандартное подчёркивание ссылки */
-    color: inherit; /* Чтобы сохранить цвет текста ссылки */
+    text-decoration: none; 
+    color: inherit; 
 }
 #box4 {
     width: 261px;
@@ -98,8 +97,8 @@ p{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    text-decoration: none; /* Чтобы убрать стандартное подчёркивание ссылки */
-    color: inherit; /* Чтобы сохранить цвет текста ссылки */
+    text-decoration: none; 
+    color: inherit; 
 }
 .general-box{
     margin-bottom: 50px;
